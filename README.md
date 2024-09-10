@@ -12,3 +12,8 @@
 - **Frontend: Blazor WebAssembly**
     - Version: 8.0.8
     - Thư viện Components: MudBlazor
+
+**Thành viên: 3**
+- Nguyễn Hữu An: Leader, Fullstack
+- Vương Anh Hào: Backend
+- Lê Quang Mạnh: Frontend
