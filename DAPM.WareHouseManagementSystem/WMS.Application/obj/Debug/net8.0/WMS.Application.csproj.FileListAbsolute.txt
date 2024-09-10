@@ -1,0 +1,15 @@
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\bin\Debug\net8.0\WMS.Application.deps.json
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\bin\Debug\net8.0\WMS.Application.dll
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\bin\Debug\net8.0\WMS.Application.pdb
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\WMS.Application.csproj.AssemblyReference.cache
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\WMS.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\WMS.Application.AssemblyInfoInputs.cache
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\WMS.Application.AssemblyInfo.cs
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\WMS.Application.csproj.CoreCompileInputs.cache
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\WMS.Application.dll
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\refint\WMS.Application.dll
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\WMS.Application.pdb
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\ref\WMS.Application.dll
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\bin\Debug\net8.0\WMS.Domain.dll
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\bin\Debug\net8.0\WMS.Domain.pdb
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\WMS.Appl.21886158.Up2Date

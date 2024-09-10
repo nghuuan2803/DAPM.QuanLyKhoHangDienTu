@@ -1,0 +1,12 @@
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\bin\Debug\net8.0\WMS.Domain.deps.json
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\bin\Debug\net8.0\WMS.Domain.dll
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\bin\Debug\net8.0\WMS.Domain.pdb
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\WMS.Domain.csproj.AssemblyReference.cache
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\WMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\WMS.Domain.AssemblyInfoInputs.cache
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\WMS.Domain.AssemblyInfo.cs
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\WMS.Domain.csproj.CoreCompileInputs.cache
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\WMS.Domain.dll
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\refint\WMS.Domain.dll
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\WMS.Domain.pdb
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\ref\WMS.Domain.dll
