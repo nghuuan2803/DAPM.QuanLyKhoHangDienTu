@@ -157,3 +157,4 @@ D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.API\bin\Debug
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.API\bin\Debug\net8.0\NetcodeHub.Packages.Extensions.LocalStorage.dll
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.API\bin\Debug\net8.0\WMS.Application.dll
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.API\bin\Debug\net8.0\WMS.Application.pdb
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.API\obj\Debug\net8.0\WMS.API.sourcelink.json
