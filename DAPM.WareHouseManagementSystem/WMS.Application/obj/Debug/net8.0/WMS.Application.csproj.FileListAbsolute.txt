@@ -13,3 +13,4 @@ D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\o
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\bin\Debug\net8.0\WMS.Domain.dll
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\bin\Debug\net8.0\WMS.Domain.pdb
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\WMS.Appl.21886158.Up2Date
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Application\obj\Debug\net8.0\WMS.Application.sourcelink.json

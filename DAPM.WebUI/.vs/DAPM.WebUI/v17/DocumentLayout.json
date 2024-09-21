@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.webui\\wms.webadmin\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|solutionrelative:wms.webadmin\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "WMS.WebAdmin\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "WMS.WebAdmin\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T06:23:18.322Z",
+              "EditorCaption": ""
             }
           ]
         }

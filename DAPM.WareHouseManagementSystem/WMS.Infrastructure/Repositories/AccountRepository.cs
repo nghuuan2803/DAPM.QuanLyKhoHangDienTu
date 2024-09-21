@@ -127,19 +127,19 @@ namespace WMS.Infrastructure.Repositories
         {
             try
             {
-                var user =await FindUserByEmailAsync(model.Email);
+                var user = await FindUserByEmailAsync(model.Email);
                 if (user is null)
                     return new LoginResponse(false, "Tên đăng nhập không tồn tại!");
                 SignInResult result;
                 try
                 {
-                    result = await signInManager.CheckPasswordSignInAsync(user,model.Password,false);
+                    result = await signInManager.CheckPasswordSignInAsync(user, model.Password, false);
                 }
                 catch (Exception)
                 {
                     return new LoginResponse(false, "Mật khẩu không chính xác");
                 }
-                if(!result.Succeeded)
+                if (!result.Succeeded)
                     return new LoginResponse(false, "Mật khẩu không chính xác");
 
                 string jwtToken = await GenerateTokenAsync(user);
@@ -214,13 +214,13 @@ namespace WMS.Infrastructure.Repositories
 
         public async Task<LoginResponse> RefreshTokenAsync(RefreshTokenDTO model)
         {
-            var token = await context.RefreshTokens.FirstOrDefaultAsync(t=>t.Token==model.Token);
-            if(token == null) return new LoginResponse();
+            var token = await context.RefreshTokens.FirstOrDefaultAsync(t => t.Token == model.Token);
+            if (token == null) return new LoginResponse();
             var user = await userManager.FindByIdAsync(token.UserId);
             string newToken = await GenerateTokenAsync(user);
             string newRefreshToken = GenerateRefreshToken();
             var saveResult = await SaveRefreshToken(user.Id, newRefreshToken);
-            if(saveResult.Succeeded)
+            if (saveResult.Succeeded)
                 return new LoginResponse(true, $"{user.UserName} đã đăng nhập thành công", newToken, newRefreshToken);
             return new LoginResponse();
         }
@@ -228,8 +228,8 @@ namespace WMS.Infrastructure.Repositories
         {
             try
             {
-                var user = await context.RefreshTokens.FirstOrDefaultAsync(t=> t.UserId == userId);
-                if(user == null)
+                var user = await context.RefreshTokens.FirstOrDefaultAsync(t => t.UserId == userId);
+                if (user == null)
                     context.RefreshTokens.Add(new RefreshToken { UserId = userId, Token = token });
                 else
                     user.Token = token;

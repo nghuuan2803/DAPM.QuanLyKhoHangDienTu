@@ -10,3 +10,4 @@ D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\refint\WMS.Domain.dll
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\WMS.Domain.pdb
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\ref\WMS.Domain.dll
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\obj\Debug\net8.0\WMS.Domain.sourcelink.json

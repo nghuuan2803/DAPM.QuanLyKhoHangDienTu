@@ -6,9 +6,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using WMS.Application.Contracts;
+using WMS.Application.Interfaces;
+using WMS.Application.Services;
 using WMS.Domain;
+using WMS.Domain.Abstracts;
 using WMS.Infrastructure.Data;
 using WMS.Infrastructure.Repositories;
+using WMS.Infrastructure.SqlsvUnitOfwork;
 
 namespace WMS.Infrastructure.DependencyInjection
 {
@@ -47,6 +51,8 @@ namespace WMS.Infrastructure.DependencyInjection
                     b => b.WithOrigins(configuration["JWT:Audience"]!));
             });
             services.AddScoped<IAccount, AccountRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<ICategoryService, CategoryService>();
         }
     }
 }

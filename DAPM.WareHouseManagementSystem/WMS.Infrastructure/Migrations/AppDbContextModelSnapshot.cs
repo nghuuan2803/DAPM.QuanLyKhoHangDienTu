@@ -155,6 +155,503 @@ namespace WMS.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("WMS.Domain.Entities.Authentication.RefreshToken", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Token")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RefreshTokens");
+                });
+
+            modelBuilder.Entity("WMS.Domain.Entities.Organization.Partner", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ContactInfo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Partner");
+                });
+
+            modelBuilder.Entity("WMS.Domain.Entities.ProductInfo.Batch", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(12)
+                        .HasColumnType("nvarchar(12)");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ErrorItemCount")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("ManufactureDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("OriginId")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(10)");
+
+                    b.Property<int?>("Owner")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SuplierId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OriginId");
+
+                    b.HasIndex("Owner");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("SuplierId");
+
+                    b.ToTable("Batches");
+                });
+
+            modelBuilder.Entity("WMS.Domain.Entities.ProductInfo.Brand", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ContactInfo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Brands");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Sony"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Panasonic"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Sam Sung"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Apple"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = " Xiaomi"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "Tosiba"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Aqua"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "Senko"
+                        });
+                });
+
+            modelBuilder.Entity("WMS.Domain.Entities.ProductInfo.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Ti vi"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Nồi cơm điện"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Máy lọc nước"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Tủ lạnh"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Máy giặt"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "Điều hòa"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Quạt điện"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "Bếp từ"
+                        });
+                });
+
+            modelBuilder.Entity("WMS.Domain.Entities.ProductInfo.Origin", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(10)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(10)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Origins");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "vn",
+                            Name = "Việt nam"
+                        },
+                        new
+                        {
+                            Id = "cn",
+                            Name = "Trung Quốc"
+                        },
+                        new
+                        {
+                            Id = "us",
+                            Name = "Mỹ"
+                        },
+                        new
+                        {
+                            Id = "thai",
+                            Name = "Thái Lan"
+                        },
+                        new
+                        {
+                            Id = "ger",
+                            Name = "Đức"
+                        },
+                        new
+                        {
+                            Id = "uk",
+                            Name = "Anh"
+                        },
+                        new
+                        {
+                            Id = "ja",
+                            Name = "Nhật"
+                        },
+                        new
+                        {
+                            Id = "kor",
+                            Name = "Hàn Quốc"
+                        },
+                        new
+                        {
+                            Id = "rus",
+                            Name = "Nga"
+                        },
+                        new
+                        {
+                            Id = "fr",
+                            Name = "Pháp"
+                        });
+                });
+
+            modelBuilder.Entity("WMS.Domain.Entities.ProductInfo.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("BrandId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<bool>("Discontinued")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Photo")
+                        .HasMaxLength(250)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(250)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BrandId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedOn = new DateTime(2024, 9, 20, 13, 38, 49, 150, DateTimeKind.Local).AddTicks(6830),
+                            Discontinued = false,
+                            Name = "Sony Bravia QLED SQ101",
+                            Price = 10000000.0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedOn = new DateTime(2024, 9, 20, 13, 38, 49, 150, DateTimeKind.Local).AddTicks(6849),
+                            Discontinued = false,
+                            Name = "Sony Bravia OLED SN101",
+                            Price = 15000000.0
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedOn = new DateTime(2024, 9, 20, 13, 38, 49, 150, DateTimeKind.Local).AddTicks(6851),
+                            Discontinued = false,
+                            Name = "Sam Sung QLED SSQ113",
+                            Price = 12000000.0
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedOn = new DateTime(2024, 9, 20, 13, 38, 49, 150, DateTimeKind.Local).AddTicks(6852),
+                            Discontinued = false,
+                            Name = "Sam Sung OLED SS115",
+                            Price = 9000000.0
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CreatedOn = new DateTime(2024, 9, 20, 13, 38, 49, 150, DateTimeKind.Local).AddTicks(6853),
+                            Discontinued = false,
+                            Name = "Điều hòa Panasonic siêu mát lạnh",
+                            Price = 6000000.0
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CreatedOn = new DateTime(2024, 9, 20, 13, 38, 49, 150, DateTimeKind.Local).AddTicks(6857),
+                            Discontinued = false,
+                            Name = "Máy lạnh Tosiba buốt giá con tim",
+                            Price = 5000000.0
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CreatedOn = new DateTime(2024, 9, 20, 13, 38, 49, 150, DateTimeKind.Local).AddTicks(6916),
+                            Discontinued = false,
+                            Name = "Tủ lạnh LG GG",
+                            Price = 7000000.0
+                        },
+                        new
+                        {
+                            Id = 8,
+                            CreatedOn = new DateTime(2024, 9, 20, 13, 38, 49, 150, DateTimeKind.Local).AddTicks(6918),
+                            Discontinued = false,
+                            Name = "Máy giặt AQUA ảo quá",
+                            Price = 8000000.0
+                        });
+                });
+
+            modelBuilder.Entity("WMS.Domain.Entities.ProductInfo.Suplier", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ContactInfo")
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Supliers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedOn = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Cty TNHH ABC"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedOn = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Cty TNHH XYZ"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedOn = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Cty CP Đông Tây"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedOn = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Cty CP Nam Bắc"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CreatedOn = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Tập Đoàn Đa Cấp Xuyên Quốc Gia Cơ Hội"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CreatedOn = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Nhà Phân Phối Chính Hãng Xiaomi"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CreatedOn = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Nhà Phân Phối Chính Hãng Cây Sung"
+                        });
+                });
+
             modelBuilder.Entity("WMS.Domain.User", b =>
                 {
                     b.Property<string>("Id")
@@ -272,6 +769,54 @@ namespace WMS.Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("WMS.Domain.Entities.ProductInfo.Batch", b =>
+                {
+                    b.HasOne("WMS.Domain.Entities.ProductInfo.Origin", "Origin")
+                        .WithMany()
+                        .HasForeignKey("OriginId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WMS.Domain.Entities.Organization.Partner", "Partner")
+                        .WithMany()
+                        .HasForeignKey("Owner");
+
+                    b.HasOne("WMS.Domain.Entities.ProductInfo.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WMS.Domain.Entities.ProductInfo.Suplier", "Suplier")
+                        .WithMany()
+                        .HasForeignKey("SuplierId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Origin");
+
+                    b.Navigation("Partner");
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Suplier");
+                });
+
+            modelBuilder.Entity("WMS.Domain.Entities.ProductInfo.Product", b =>
+                {
+                    b.HasOne("WMS.Domain.Entities.ProductInfo.Brand", "Brand")
+                        .WithMany()
+                        .HasForeignKey("BrandId");
+
+                    b.HasOne("WMS.Domain.Entities.ProductInfo.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId");
+
+                    b.Navigation("Brand");
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

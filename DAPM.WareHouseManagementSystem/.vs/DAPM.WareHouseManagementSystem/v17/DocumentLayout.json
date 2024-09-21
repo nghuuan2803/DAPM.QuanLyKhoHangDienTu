@@ -3,32 +3,128 @@
   "WorkspaceRootPath": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.api\\controllers\\productgroup\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\productgroup\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\repositories\\productgroup\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\productgroup\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\domain\\abstracts\\productgroup\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|solutionrelative:domain\\abstracts\\productgroup\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\sqlunitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\sqlunitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\dependencyinjection\\containerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\dependencyinjection\\containerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.application\\extensions\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\extensions\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\dependencyinjection\\thanhtrungdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\dependencyinjection\\thanhtrungdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\domain\\abstracts\\productgroup\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|solutionrelative:domain\\abstracts\\productgroup\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\domain\\abstracts\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|solutionrelative:domain\\abstracts\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\domain\\abstracts\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|solutionrelative:domain\\abstracts\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.application\\dtos\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\brandconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\brandconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\batchconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\batchconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.application\\dtos\\responses\\generalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\responses\\generalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.application\\dtos\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F6CCA-2075-49D7-92CF-AC374658D739}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\domain\\entities\\productgroup\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|solutionrelative:domain\\entities\\productgroup\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\domain\\entities\\authentication\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|solutionrelative:domain\\entities\\authentication\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\domain\\entities\\organization\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|solutionrelative:domain\\entities\\organization\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\suplierconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\suplierconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\originconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\originconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\categoryconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\data\\entitiesconfiguration\\productgroup\\categoryconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\domain\\entities\\productgroup\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7934650-D7C3-4E9A-82AF-AB54585CCDFD}|Domain\\WMS.Domain.csproj|solutionrelative:domain\\entities\\productgroup\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37381FD4-8CFC-4AA3-A360-FE5EFCE9D4DB}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\migrations\\20240920063850_seed_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20240920063850_seed_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.warehousemanagementsystem\\wms.infrastructure\\migrations\\20240920063216_updateproductgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353FF926-7AED-4CC2-9DE4-573ACC63E5E4}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20240920063216_updateproductgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,88 +142,381 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WMS.API\\appsettings.Development.json",
-              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\appsettings.Development.json",
-              "RelativeToolTip": "WMS.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-11T17:06:31.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\Program.cs",
-              "RelativeDocumentMoniker": "WMS.API\\Program.cs",
-              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\Program.cs",
-              "RelativeToolTip": "WMS.API\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T05:44:23.641Z"
+              "WhenOpened": "2024-09-21T14:27:12.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "WMS.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "WMS.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA3AAAA",
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T05:29:12.592Z"
+              "WhenOpened": "2024-09-20T12:43:24.232Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Abstracts\\ProductGroup\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Abstracts\\ProductGroup\\ICategoryRepository.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Abstracts\\ProductGroup\\ICategoryRepository.cs",
+              "RelativeToolTip": "Domain\\Abstracts\\ProductGroup\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:27:04.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\Controllers\\ProductGroup\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\ProductGroup\\CategoryController.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\Controllers\\ProductGroup\\CategoryController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\ProductGroup\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T14:47:53.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T12:44:25.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBrandRepository.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Abstracts\\ProductGroup\\IBrandRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Abstracts\\ProductGroup\\IBrandRepository.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Abstracts\\ProductGroup\\IBrandRepository.cs",
+              "RelativeToolTip": "Domain\\Abstracts\\ProductGroup\\IBrandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:35:15.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\SqlUnitOfwork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\SqlUnitOfwork\\UnitOfWork.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\SqlUnitOfwork\\UnitOfWork.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\SqlUnitOfwork\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:14:08.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Repositories\\ProductGroup\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\ProductGroup\\CategoryRepository.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Repositories\\ProductGroup\\CategoryRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\ProductGroup\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T15:58:10.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ContainerService.cs",
               "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\DependencyInjection\\ContainerService.cs",
               "RelativeDocumentMoniker": "WMS.Infrastructure\\DependencyInjection\\ContainerService.cs",
               "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\DependencyInjection\\ContainerService.cs",
               "RelativeToolTip": "WMS.Infrastructure\\DependencyInjection\\ContainerService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABUAAAA",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T04:00:38.521Z"
+              "WhenOpened": "2024-09-20T06:54:20.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Constant.cs",
-              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\Extensions\\Constant.cs",
-              "RelativeDocumentMoniker": "WMS.Application\\Extensions\\Constant.cs",
-              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\Extensions\\Constant.cs",
-              "RelativeToolTip": "WMS.Application\\Extensions\\Constant.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\Program.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Program.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\Program.cs",
+              "RelativeToolTip": "WMS.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T03:22:28.459Z"
+              "WhenOpened": "2024-09-21T05:31:00.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "ThanhTrungDI.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\DependencyInjection\\ThanhTrungDI.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\DependencyInjection\\ThanhTrungDI.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\DependencyInjection\\ThanhTrungDI.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\DependencyInjection\\ThanhTrungDI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:33:08.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Abstracts\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Abstracts\\IBaseRepository.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Abstracts\\IBaseRepository.cs",
+              "RelativeToolTip": "Domain\\Abstracts\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T16:55:07.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:29:37.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Abstracts\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Domain\\Abstracts\\IUnitOfWork.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Abstracts\\IUnitOfWork.cs",
+              "RelativeToolTip": "Domain\\Abstracts\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T06:58:33.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BatchConfig.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\BatchConfig.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\BatchConfig.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\BatchConfig.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\BatchConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T05:57:34.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\DTOs\\Responses\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\Responses\\BaseResponse.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\DTOs\\Responses\\BaseResponse.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\Responses\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T12:52:13.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAlwDEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T05:56:02.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BrandConfig.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\BrandConfig.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\BrandConfig.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\BrandConfig.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\BrandConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T05:57:36.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GeneralResponse.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\DTOs\\Responses\\GeneralResponse.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\Responses\\GeneralResponse.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\DTOs\\Responses\\GeneralResponse.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\Responses\\GeneralResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T12:51:06.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\DTOs\\Responses\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\Responses\\LoginResponse.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Application\\DTOs\\Responses\\LoginResponse.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\Responses\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T12:51:35.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240920063850_seed_product.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Migrations\\20240920063850_seed_product.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20240920063850_seed_product.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Migrations\\20240920063850_seed_product.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20240920063850_seed_product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T06:38:50.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240920063216_updateProductGroup.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Migrations\\20240920063216_updateProductGroup.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20240920063216_updateProductGroup.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Migrations\\20240920063216_updateProductGroup.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20240920063216_updateProductGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T06:32:16.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Entities\\Authentication\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Authentication\\User.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Entities\\Authentication\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\Authentication\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T06:31:40.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Entities\\Organization\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Organization\\Employee.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Entities\\Organization\\Employee.cs",
+              "RelativeToolTip": "Domain\\Entities\\Organization\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T06:30:20.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Entities\\ProductGroup\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ProductGroup\\Product.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Entities\\ProductGroup\\Product.cs",
+              "RelativeToolTip": "Domain\\Entities\\ProductGroup\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T06:03:53.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Entities\\ProductGroup\\Brand.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ProductGroup\\Brand.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\Domain\\Entities\\ProductGroup\\Brand.cs",
+              "RelativeToolTip": "Domain\\Entities\\ProductGroup\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T06:03:44.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SuplierConfig.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\SuplierConfig.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\SuplierConfig.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\SuplierConfig.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\SuplierConfig.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T05:57:42.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductConfig.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\ProductConfig.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\ProductConfig.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\ProductConfig.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\ProductConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T05:57:40.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OriginConfig.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\OriginConfig.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\OriginConfig.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\OriginConfig.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\OriginConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T05:57:39.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoryConfig.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\CategoryConfig.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\CategoryConfig.cs",
+              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\CategoryConfig.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Data\\EntitiesConfiguration\\ProductGroup\\CategoryConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T05:57:38.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\appsettings.json",
               "RelativeDocumentMoniker": "WMS.API\\appsettings.json",
               "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\appsettings.json",
               "RelativeToolTip": "WMS.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-11T03:18:08.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "WMS.API\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WareHouseManagementSystem\\WMS.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "WMS.API\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T17:18:44.293Z"
+              "WhenOpened": "2024-09-20T05:56:21.231Z"
             }
           ]
         }

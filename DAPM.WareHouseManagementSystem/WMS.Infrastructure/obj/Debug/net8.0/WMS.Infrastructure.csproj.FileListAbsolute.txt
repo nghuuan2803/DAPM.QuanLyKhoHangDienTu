@@ -17,3 +17,4 @@ D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Infrastructur
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Infrastructure\obj\Debug\net8.0\ref\WMS.Infrastructure.dll
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Infrastructure\bin\Debug\net8.0\WMS.Application.dll
 D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Infrastructure\bin\Debug\net8.0\WMS.Application.pdb
+D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\WMS.Infrastructure\obj\Debug\net8.0\WMS.Infrastructure.sourcelink.json

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WMS.WebAdmin",
   "resources": {
-    "hash": "sha256-B4xrdGqmGVEerKHBjFx3O26l4+qXNjYSmXa06iDARKs=",
+    "hash": "sha256-3Enoa3GcRCWKuhm0ZZr7DC8rn8Hhs8PdFQ3g6CQ9uK0=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.mw4uy2kzj1.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "WMS.WebAdmin.wasm": "sha256-MUq0zIHiuYJJponIiTgdhcWAUOPxY+zXetaJuRfYn7E="
+      "WMS.WebAdmin.wasm": "sha256-lAlZKWOlzfGZFfIXM9sQVP71BH++UtdXurN3dxzixpo="
     },
     "pdb": {
-      "WMS.WebAdmin.pdb": "sha256-m2QgOfDTdxaL1ye+TAKoUb0hq1oIJdz82XyWPK6fMJA="
+      "WMS.WebAdmin.pdb": "sha256-MCB1T3/M09zhE3mc32QrtNPhhSjWEltv8W5yGo0utOk="
     }
   },
   "cacheBootResources": true,

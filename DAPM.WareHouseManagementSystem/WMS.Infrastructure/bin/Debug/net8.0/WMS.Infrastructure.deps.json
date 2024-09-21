@@ -1206,7 +1206,10 @@
           "WMS.Domain": "1.0.0"
         },
         "runtime": {
-          "WMS.Application.dll": {}
+          "WMS.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "WMS.Domain/1.0.0": {
@@ -1214,7 +1217,10 @@
           "Microsoft.Extensions.Identity.Stores": "8.0.8"
         },
         "runtime": {
-          "WMS.Domain.dll": {}
+          "WMS.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
