@@ -13,6 +13,9 @@
     <div>
         <MudButton Class="pd-20" Style="margin-bottom: 20px;" Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.AddCircleOutline" Color="Color.Success" Size="Size.Small">Add</MudButton>
     </div>
+    <div style="margin-bottom: 20px;">
+        <MudTextField @bind-Value="searchTerm" Placeholder="Tìm kiếm nhà cung cấp..." Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" />
+    </div>
     
     <MudDataGrid T="BrandDTO" Items="@Elements" ReadOnly="@_readOnly" EditMode="@(_isCellEditMode ? DataGridEditMode.Cell : DataGridEditMode.Form)"
                  RowClass="custom-row"               
@@ -59,6 +62,13 @@
     new BrandDTO(19, "Razer", "help@razer.com"),
     new BrandDTO(20, "LG Electronics", "service@lge.com")
     };
+        private string searchTerm = string.Empty;
+
+        private IEnumerable<BrandDTO> FilteredElements => Elements
+        .Where(e => string.IsNullOrWhiteSpace(searchTerm)
+        || e.name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)
+        || e.ContactInfo.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+        .ToList();
         private bool _readOnly;
         private bool _isCellEditMode;
         private List<string> _events = new();
