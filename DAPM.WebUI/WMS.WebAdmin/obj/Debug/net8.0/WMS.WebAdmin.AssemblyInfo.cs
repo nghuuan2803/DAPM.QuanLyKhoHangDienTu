@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WMS.WebAdmin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b90e7af2204bd08e14b32081e13d4a9ed2bfb7f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dafe4e4de1f9cee6541362cc076d833d8ebd968")]
 [assembly: System.Reflection.AssemblyProductAttribute("WMS.WebAdmin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WMS.WebAdmin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

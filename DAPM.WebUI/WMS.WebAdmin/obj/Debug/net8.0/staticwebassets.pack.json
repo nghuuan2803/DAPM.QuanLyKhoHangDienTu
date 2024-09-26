@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\obj\\Debug\\net8.0\\compressed\\43tuwrhlrk.gz",
+      "Id": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\obj\\Debug\\net8.0\\compressed\\cyrnwpay44.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.WebAdmin.styles.css",
+      "Id": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.WebAdmin.styles.css",
       "PackagePath": "staticwebassets\\WMS.WebAdmin.styles.css"
     },
     {
-      "Id": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\css\\app.css",
+      "Id": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\favicon.png",
+      "Id": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\icon-192.png",
+      "Id": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\index.html",
+      "Id": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\sample-data\\weather.json",
+      "Id": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

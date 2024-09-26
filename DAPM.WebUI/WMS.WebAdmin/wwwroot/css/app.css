@@ -1,4 +1,4 @@
-html, body {
+﻿html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -101,3 +101,46 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+.custom-paper {
+    background: linear-gradient(135deg, #4caf50, #81c784); /* Hiệu ứng gradient màu xanh lá */
+    border-radius: 12px; /* Bo góc mềm mại hơn */
+    padding: 30px; /* Tăng padding để tạo khoảng cách rộng */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Đổ bóng rõ nét hơn */
+    border: none; /* Bỏ viền để tập trung vào màu nền */
+    color: #fff; /* Màu chữ trắng để nổi bật trên nền màu */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng hover mượt mà */
+}
+
+    .custom-paper:hover {
+        transform: translateY(-5px); /* Di chuyển nhẹ lên khi hover */
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4); /* Đổ bóng mạnh hơn khi hover */
+    }
+
+.custom-heading {
+    font-size: 24px; /* Kích thước chữ lớn hơn */
+    font-weight: bold; /* In đậm tiêu đề */
+    font-family: 'Roboto', sans-serif; /* Phông chữ hiện đại */
+    margin: 0;
+    padding-bottom: 12px; /* Tăng khoảng cách dưới tiêu đề */
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5); /* Gạch chân mờ màu trắng */
+    text-transform: uppercase; /* Chuyển chữ thành in hoa */
+    letter-spacing: 2px; /* Tăng khoảng cách giữa các chữ */
+}
+
+.custom-row:hover {
+    background-color: #E0F7FA; /* Màu nền khi hover */
+    transition: background-color 0.3s ease;
+}
+.fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+.mud-table:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /*hiệu ứng Shadow khi focus vào bảng*/
+}
+
+

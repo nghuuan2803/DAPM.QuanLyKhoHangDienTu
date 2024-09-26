@@ -1,16 +1,44 @@
 ﻿@inherits LayoutComponentBase
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+@* Required *@
+<MudThemeProvider />
+<MudPopoverProvider />
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
+@* Needed for dialogs *@
+<MudDialogProvider />
 
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
-</div>
+@* Needed for snackbars *@
+<MudSnackbarProvider />
+<MudSnackbarProvider />
+<MudLayout>
+    <MudAppBar Elevation="1" Dense="@_dense">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@ToggleDrawer" />
+        <MudSpacer />
+        <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" Href="https://github.com/MudBlazor/MudBlazor" Target="_blank" />
+    </MudAppBar>
+    <MudDrawer @bind-Open="@_open" ClipMode="_clipMode" Breakpoint="@_breakpoint" Elevation="1" Variant="@DrawerVariant.Mini" OpenMiniOnHover="true">
+        <MudNavMenu Bordered="true" Color="Color.Success">
+            <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Store" Href="/">Home</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.LibraryBooks" Href="/counter">Counter</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Group" Href="/weather">Weather</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.FireTruck" Href="/brand">Brand</MudNavLink>
+           @*  <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Warehouse" Href="/product">Products</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.LocationOn" Href="/location">Location</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Groups" Href="/employee">Employee</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.AccountCircle" Href="/account">Account</MudNavLink> *@
+        </MudNavMenu>
+    </MudDrawer>
+    <MudMainContent>
+        @Body
+    </MudMainContent>
+</MudLayout>
+@code {
+    private bool _open = false;
+    private bool _dense = true;
+    private Breakpoint _breakpoint = Breakpoint.Md;
+    private DrawerClipMode _clipMode = DrawerClipMode.Always;
+
+    private void ToggleDrawer()
+    {
+        _open = !_open;
+    }
+}

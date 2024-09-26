@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj": {}
+    "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj": {}
   },
   "projects": {
-    "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj": {
+    "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj",
+        "projectUniqueName": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj",
         "projectName": "WMS.LandingPage",
-        "projectPath": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.LandingPage\\obj\\",
+        "projectPath": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj",
+        "packagesPath": "C:\\Users\\lequa\\.nuget\\packages\\",
+        "outputPath": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lequa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,13 +58,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[8.0.5, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[8.0.5, )",
               "autoReferenced": true
             }
           },
@@ -82,7 +82,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.8, 8.0.8]"
+              "version": "[8.0.5, 8.0.5]"
             }
           ],
           "frameworkReferences": {
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

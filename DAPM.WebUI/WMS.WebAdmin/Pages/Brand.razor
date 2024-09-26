@@ -1,0 +1,88 @@
+﻿@page "/brand"
+@using System.Net.Http.Json
+@using WMS.WebAdmin.Model
+@inject HttpClient httpClient
+
+<div>
+    <MudPaper Class="pa-5 ma-1 custom-paper" Elevation="4" Style="text-align: center;">
+        <h5 class="custom-heading" Style="color: #F5F5DC;">Nhà Cung Cấp</h5>
+    </MudPaper>
+</div>
+
+<MudPaper Class="pa-5 ma-1" Elevation="3">
+    <div>
+        <MudButton Class="pd-20" Style="margin-bottom: 20px;" Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.AddCircleOutline" Color="Color.Success" Size="Size.Small">Add</MudButton>
+    </div>
+    
+    <MudDataGrid T="BrandDTO" Items="@Elements" ReadOnly="@_readOnly" EditMode="@(_isCellEditMode ? DataGridEditMode.Cell : DataGridEditMode.Form)"
+                 RowClass="custom-row"               
+                 StartedEditingItem="@StartedEditingItem" CanceledEditingItem="@CanceledEditingItem" CommittedItemChanges="@CommittedItemChanges"
+                 Bordered="true" Dense="true" EditTrigger="@(_editTriggerRowClick ? DataGridEditTrigger.OnRowClick : DataGridEditTrigger.Manual)">
+        <Columns>
+            <PropertyColumn Property="x => x.id" Title="Id" Editable="false" CellClass="custom-id" HeaderStyle="background-color: #ADD8E6; color: white;" />
+            <PropertyColumn Property="x => x.name" Title="Name" CellClass="custom-name" HeaderStyle="background-color: #ADD8E6; color: white;" />
+            <PropertyColumn Property="x => x.ContactInfo" Title="Contact Infor" CellClass="custom-contactinfo" HeaderStyle="background-color: #ADD8E6; color: white;" />
+            <TemplateColumn Hidden="@(_isCellEditMode || _readOnly || _editTriggerRowClick)" CellClass="d-flex justify-end" HeaderStyle="background-color: #ADD8E6;">
+                <CellTemplate>
+                    <MudIconButton Size="@Size.Small" Icon="@Icons.Material.Outlined.Edit" OnClick="@context.Actions.StartEditingItemAsync"
+                                   Style="transition: transform 0.3s ease;" OnMouseOver="(e) => e.currentTarget.style.transform = 'scale(1.1)'"
+                                   OnMouseOut="(e) => e.currentTarget.style.transform = 'scale(1)'" />
+                    <MudIconButton Size="@Size.Small" Icon="@Icons.Material.Filled.Delete"
+                                   Style="transition: transform 0.3s ease;" OnMouseOver="(e) => e.currentTarget.style.transform = 'scale(1.1)'"
+                                   OnMouseOut="(e) => e.currentTarget.style.transform = 'scale(1)'" />
+                </CellTemplate>
+            </TemplateColumn>
+        </Columns>
+    </MudDataGrid>
+
+    @code {
+        private IEnumerable<BrandDTO> Elements = new List<BrandDTO>()
+    {
+    new BrandDTO(1, "Apple", "contact@apple.com"),
+    new BrandDTO(2, "Samsung", "support@samsung.com"),
+    new BrandDTO(3, "Sony", "info@sony.com"),
+    new BrandDTO(4, "LG", "help@lg.com"),
+    new BrandDTO(5, "Huawei", "service@huawei.com"),
+    new BrandDTO(6, "Nokia", "contact@nokia.com"),
+    new BrandDTO(7, "Xiaomi", "support@xiaomi.com"),
+    new BrandDTO(8, "OnePlus", "info@oneplus.com"),
+    new BrandDTO(9, "Oppo", "help@oppo.com"),
+    new BrandDTO(10, "Motorola", "service@motorola.com"),
+    new BrandDTO(11, "Lenovo", "contact@lenovo.com"),
+    new BrandDTO(12, "Asus", "support@asus.com"),
+    new BrandDTO(13, "Dell", "info@dell.com"),
+    new BrandDTO(14, "HP", "help@hp.com"),
+    new BrandDTO(15, "Toshiba", "service@toshiba.com"),
+    new BrandDTO(16, "Panasonic", "contact@panasonic.com"),
+    new BrandDTO(17, "Siemens", "support@siemens.com"),
+    new BrandDTO(18, "Philips", "info@philips.com"),
+    new BrandDTO(19, "Razer", "help@razer.com"),
+    new BrandDTO(20, "LG Electronics", "service@lge.com")
+    };
+        private bool _readOnly;
+        private bool _isCellEditMode;
+        private List<string> _events = new();
+        private bool _editTriggerRowClick;
+
+        protected override async Task OnInitializedAsync()
+        {
+            Elements = await httpClient.GetFromJsonAsync<List<BrandDTO>>("webapi/periodictable");
+        }
+
+        // events
+        void StartedEditingItem(BrandDTO item)
+        {
+            _events.Insert(0, $"Event = StartedEditingItem, Data = {System.Text.Json.JsonSerializer.Serialize(item)}");
+        }
+
+        void CanceledEditingItem(BrandDTO item)
+        {
+            _events.Insert(0, $"Event = CanceledEditingItem, Data = {System.Text.Json.JsonSerializer.Serialize(item)}");
+        }
+
+        void CommittedItemChanges(BrandDTO item)
+        {
+            _events.Insert(0, $"Event = CommittedItemChanges, Data = {System.Text.Json.JsonSerializer.Serialize(item)}");
+        }
+    }
+</MudPaper>

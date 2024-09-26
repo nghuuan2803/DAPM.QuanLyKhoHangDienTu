@@ -1,9 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\",
+  "WorkspaceRootPath": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|d:\\dotnetprojects\\dapm.projects\\dapm.webui\\wms.webadmin\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|e:\\cnpm_nc\\dapm.quanlykhohangdientu\\dapm.webui\\wms.webadmin\\pages\\brand.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|solutionrelative:wms.webadmin\\pages\\brand.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|e:\\cnpm_nc\\dapm.quanlykhohangdientu\\dapm.webui\\wms.webadmin\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|solutionrelative:wms.webadmin\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|e:\\cnpm_nc\\dapm.quanlykhohangdientu\\dapm.webui\\wms.webadmin\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|solutionrelative:wms.webadmin\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|e:\\cnpm_nc\\dapm.quanlykhohangdientu\\dapm.webui\\wms.webadmin\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|solutionrelative:wms.webadmin\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|e:\\cnpm_nc\\dapm.quanlykhohangdientu\\dapm.webui\\wms.webadmin\\model\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|solutionrelative:wms.webadmin\\model\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|e:\\cnpm_nc\\dapm.quanlykhohangdientu\\dapm.webui\\wms.webadmin\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|solutionrelative:wms.webadmin\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|e:\\cnpm_nc\\dapm.quanlykhohangdientu\\dapm.webui\\wms.webadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|solutionrelative:wms.webadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|e:\\cnpm_nc\\dapm.quanlykhohangdientu\\dapm.webui\\wms.webadmin\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EC3753D8-35D7-44EA-A27F-5C32AFE10846}|WMS.WebAdmin\\WMS.WebAdmin.csproj|solutionrelative:wms.webadmin\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -14,24 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "WMS.WebAdmin\\Pages\\Counter.razor",
+              "ToolTip": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\Pages\\Counter.razor",
+              "RelativeToolTip": "WMS.WebAdmin\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T08:15:19.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.css",
+              "DocumentMoniker": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "WMS.WebAdmin\\wwwroot\\css\\app.css",
+              "ToolTip": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "WMS.WebAdmin\\wwwroot\\css\\app.css",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAiwI4AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-25T08:12:53.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BrandDTO.cs",
+              "DocumentMoniker": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\Model\\BrandDTO.cs",
+              "RelativeDocumentMoniker": "WMS.WebAdmin\\Model\\BrandDTO.cs",
+              "ToolTip": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\Model\\BrandDTO.cs",
+              "RelativeToolTip": "WMS.WebAdmin\\Model\\BrandDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:59:52.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "WMS.WebAdmin\\Program.cs",
+              "ToolTip": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\Program.cs",
+              "RelativeToolTip": "WMS.WebAdmin\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:51:40.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "WMS.WebAdmin\\wwwroot\\index.html",
+              "ToolTip": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\wwwroot\\index.html",
+              "RelativeToolTip": "WMS.WebAdmin\\wwwroot\\index.html",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-25T06:50:54.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\_Imports.razor",
+              "RelativeDocumentMoniker": "WMS.WebAdmin\\_Imports.razor",
+              "ToolTip": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\_Imports.razor",
+              "RelativeToolTip": "WMS.WebAdmin\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T06:50:21.593Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "WMS.WebAdmin\\Layout\\MainLayout.razor",
-              "ToolTip": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.WebAdmin\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "WMS.WebAdmin\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Title": "Brand.razor",
+              "DocumentMoniker": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\Pages\\Brand.razor",
+              "RelativeDocumentMoniker": "WMS.WebAdmin\\Pages\\Brand.razor",
+              "ToolTip": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\Pages\\Brand.razor",
+              "RelativeToolTip": "WMS.WebAdmin\\Pages\\Brand.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAACTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T06:23:18.322Z",
+              "WhenOpened": "2024-09-24T08:03:23.15Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "WMS.WebAdmin\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\CNPM_NC\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.WebAdmin\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "WMS.WebAdmin\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T06:23:18.322Z"
             }
           ]
         }
