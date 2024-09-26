@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WMS.Domain
-build_property.ProjectDir = D:\DotNetProjects\DAPM.Projects\DAPM.WareHouseManagementSystem\Domain\
+build_property.ProjectDir = C:\Users\ADMIN\Documents\Nam3KH1\Do_An_Phan_Mem\DOAN\DAPM.QuanLyKhoHangDienTu\DAPM.WareHouseManagementSystem\Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

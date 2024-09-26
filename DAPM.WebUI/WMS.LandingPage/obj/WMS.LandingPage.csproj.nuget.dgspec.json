@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj": {}
+    "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj": {}
   },
   "projects": {
-    "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj": {
+    "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj",
         "projectName": "WMS.LandingPage",
-        "projectPath": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\WMS.LandingPage.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNetProjects\\DAPM.Projects\\DAPM.WebUI\\WMS.LandingPage\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -35,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,13 +57,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[8.0.1, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[8.0.1, )",
               "autoReferenced": true
             }
           },
@@ -82,7 +81,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.8, 8.0.8]"
+              "version": "[8.0.1, 8.0.1]"
             }
           ],
           "frameworkReferences": {
@@ -90,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -1,0 +1,68 @@
+﻿@page "/product"
+@using System.Net.Http.Json
+@using WMS.WebAdmin.Model
+@using static MudBlazor.CategoryTypes
+@inject HttpClient httpClient
+
+<div class="pa-10">
+    <h2>Danh Sách Sản Phẩm</h2>
+    <MudFab Color="Color.Primary" StartIcon="@Icons.Material.Filled.Add" Size="Size.Medium" />
+    <MudDataGrid T="ProductDTO" Items="@products.Take(4)" ReadOnly="@_readOnly" EditMode="@(_isCellEditMode ? DataGridEditMode.Cell : DataGridEditMode.Form)"
+                 StartedEditingItem="@StartedEditingItem" CanceledEditingItem="@CanceledEditingItem" CommittedItemChanges="@CommittedItemChanges"
+                 Bordered="true" Dense="true" EditTrigger="@(_editTriggerRowClick ? DataGridEditTrigger.OnRowClick : DataGridEditTrigger.Manual)">
+        <Columns>
+            <PropertyColumn Property="x => x.Id" Title="Nr" Editable="false" />
+            <PropertyColumn Property="x => x.Name" />
+            <PropertyColumn Property="x => x.Catagory" />
+            <PropertyColumn Property="x => x.Quantity" />
+            <TemplateColumn Hidden="@(_isCellEditMode || _readOnly || _editTriggerRowClick)" CellClass="d-flex justify-end">
+                <CellTemplate>
+                    <MudIconButton Size="@Size.Small" Icon="@Icons.Material.Outlined.Edit" OnClick="@context.Actions.StartEditingItemAsync" />
+                </CellTemplate>
+            </TemplateColumn>
+        </Columns>
+    </MudDataGrid>
+</div>
+
+@code {
+    private List<ProductDTO> products = new List<ProductDTO>()
+    {
+        new ProductDTO(1,"Cam","fruit",123123),
+        new ProductDTO(2,"Xoai","fruit",123123),
+        new ProductDTO(3,"Tao","fruit",123123),
+        new ProductDTO(4,"Buoi","fruit",123123),
+        new ProductDTO(5,"vai","fruit",123123),
+        new ProductDTO(6,"Quyt","fruit",123123),
+        new ProductDTO(7,"Dau","fruit",123123),
+        new ProductDTO(8,"Dau da lat","fruit",123123),
+        new ProductDTO(9,"Dao lao","fruit",123123),
+        new ProductDTO(10,"Cam My","fruit",123123),
+        new ProductDTO(11,"Tao My","fruit",123123),
+        new ProductDTO(12,"Tao HCM","fruit",123123),
+    };
+    private bool _readOnly;
+    private bool _isCellEditMode;
+    private List<string> _events = new();
+    private bool _editTriggerRowClick;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await httpClient.GetFromJsonAsync<List<ProductDTO>>("webapi/periodictable");
+    }
+
+    // events
+    void StartedEditingItem(ProductDTO item)
+    {
+         _events.Insert(0, $"Event = StartedEditingItem, Data = {System.Text.Json.JsonSerializer.Serialize(item)}");
+    }
+
+    void CanceledEditingItem(ProductDTO item)
+    {
+        _events.Insert(0, $"Event = CanceledEditingItem, Data = {System.Text.Json.JsonSerializer.Serialize(item)}");
+    }
+
+    void CommittedItemChanges(ProductDTO item)
+    {
+        _events.Insert(0, $"Event = CommittedItemChanges, Data = {System.Text.Json.JsonSerializer.Serialize(item)}");
+    }
+}

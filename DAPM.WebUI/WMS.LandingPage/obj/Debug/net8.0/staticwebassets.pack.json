@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\obj\\Debug\\net8.0\\compressed\\43tuwrhlrk.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.LandingPage.styles.css",
+      "PackagePath": "staticwebassets\\WMS.LandingPage.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\Nam3KH1\\Do_An_Phan_Mem\\DOAN\\DAPM.QuanLyKhoHangDienTu\\DAPM.WebUI\\WMS.LandingPage\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WMS.LandingPage.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WMS.LandingPage.props",
+      "PackagePath": "build\\WMS.LandingPage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WMS.LandingPage.props",
+      "PackagePath": "buildMultiTargeting\\WMS.LandingPage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WMS.LandingPage.props",
+      "PackagePath": "buildTransitive\\WMS.LandingPage.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

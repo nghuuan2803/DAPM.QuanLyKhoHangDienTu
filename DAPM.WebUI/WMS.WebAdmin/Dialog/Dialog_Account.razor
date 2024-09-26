@@ -1,0 +1,17 @@
+﻿<MudDialog>
+    <DialogContent>
+        <MudTextField T="string" Label="Email"></MudTextField>
+        <MudTextField T="string" Label="Password"></MudTextField>
+        <MudTextField T="string" Label="RePassword"></MudTextField>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton OnClick="Save">Save</MudButton>
+    </DialogActions>
+</MudDialog>
+@code {
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+    private void Cancel() => MudDialog.Cancel();
+    private void Save() => MudDialog.Close(DialogResult.Ok(true));
+}

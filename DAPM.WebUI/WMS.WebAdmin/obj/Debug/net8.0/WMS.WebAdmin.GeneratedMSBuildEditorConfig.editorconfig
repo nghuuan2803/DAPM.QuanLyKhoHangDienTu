@@ -3,6 +3,9 @@ build_property.EnableAotAnalyzer =
 build_property.EnableSingleFileAnalyzer = 
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudIllegalParameters = 
 build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -13,39 +16,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = WMS.WebAdmin
 build_property.RootNamespace = WMS.WebAdmin
-build_property.ProjectDir = D:\DotNetProjects\DAPM.Projects\DAPM.WebUI\WMS.WebAdmin\
+build_property.ProjectDir = C:\Users\ADMIN\Documents\Nam3KH1\Do_An_Phan_Mem\DOAN\DAPM.QuanLyKhoHangDienTu\DAPM.WebUI\WMS.WebAdmin\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\DotNetProjects\DAPM.Projects\DAPM.WebUI\WMS.WebAdmin
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Documents\Nam3KH1\Do_An_Phan_Mem\DOAN\DAPM.QuanLyKhoHangDienTu\DAPM.WebUI\WMS.WebAdmin
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/DotNetProjects/DAPM.Projects/DAPM.WebUI/WMS.WebAdmin/App.razor]
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNetProjects/DAPM.Projects/DAPM.WebUI/WMS.WebAdmin/Pages/Counter.razor]
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Dialog/Dialog_Account.razor]
+build_metadata.AdditionalFiles.TargetPath = RGlhbG9nXERpYWxvZ19BY2NvdW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Dialog/Dialog_Employee.razor]
+build_metadata.AdditionalFiles.TargetPath = RGlhbG9nXERpYWxvZ19FbXBsb3llZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Pages/Account.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNetProjects/DAPM.Projects/DAPM.WebUI/WMS.WebAdmin/Pages/Home.razor]
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Pages/Employee.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNetProjects/DAPM.Projects/DAPM.WebUI/WMS.WebAdmin/Pages/Weather.razor]
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Pages/Location.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Pages/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNetProjects/DAPM.Projects/DAPM.WebUI/WMS.WebAdmin/_Imports.razor]
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DotNetProjects/DAPM.Projects/DAPM.WebUI/WMS.WebAdmin/Layout/MainLayout.razor]
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-y18ajxujid
 
-[D:/DotNetProjects/DAPM.Projects/DAPM.WebUI/WMS.WebAdmin/Layout/NavMenu.razor]
+[C:/Users/ADMIN/Documents/Nam3KH1/Do_An_Phan_Mem/DOAN/DAPM.QuanLyKhoHangDienTu/DAPM.WebUI/WMS.WebAdmin/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-39cneh166m
