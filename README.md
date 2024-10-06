@@ -17,3 +17,4 @@
 - Nguyễn Hữu An: Leader, Fullstack
 - Vương Anh Hào: Backend
 - Lê Quang Mạnh: Frontend
+- Nguyễn Thành Trung: Backend
